@@ -1,0 +1,14 @@
+.git
+.gitignore
+target/
+.env*
+!.env.example
+scripts/
+docs/
+*.md
+.idea/
+.settings/
+.classpath
+.project
+.vscode/
+frontend/node_modules/
