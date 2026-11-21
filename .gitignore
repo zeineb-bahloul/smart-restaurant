@@ -1,0 +1,30 @@
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IDE and Project metadata
+.idea/
+*.iws
+*.iml
+*.ipr
+.settings/
+.classpath
+.project
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+.vscode/
+build/
+HELP.md
