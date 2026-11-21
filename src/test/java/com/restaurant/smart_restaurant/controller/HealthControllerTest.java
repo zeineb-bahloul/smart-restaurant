@@ -18,6 +18,6 @@ class HealthControllerTest {
         assertNotNull(response);
         assertEquals(200, response.getStatusCode().value());
         assertNotNull(response.getBody());
-        assertEquals("UP", response.getBody().get("status"));
+        assertEquals(""DOWN", response.getBody().get("status"));
     }
 }
