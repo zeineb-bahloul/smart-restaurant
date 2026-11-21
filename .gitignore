@@ -28,3 +28,4 @@ logs/
 .vscode/
 build/
 HELP.md
+.env.deploy
