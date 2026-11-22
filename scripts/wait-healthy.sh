@@ -2,7 +2,7 @@
 set -euo pipefail
 
 URL="http://localhost:2626/health"
-MAX=15
+MAX=25
 echo "=== En attente de la disponibilite du service sur $URL ==="
 
 for i in $(seq 1 $MAX); do
